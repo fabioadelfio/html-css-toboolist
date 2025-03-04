@@ -7,13 +7,22 @@
 body {
     background-color: #F6F8FA;
     color: black;
+    padding-bottom: 30px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     background-color: white;
     margin: 0 auto;
     margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container .content {
+    margin-left: 50px;
+    padding-bottom: 1px;
 }
 
 header{
@@ -31,4 +40,113 @@ header .header-top span {
     font-size: 3rem;
     font-weight: bold;
     vertical-align: middle;
+}
+
+.container .button1 {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #47ACEE;
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.container .button2 {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: lightgray;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container .content .menu {
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #494B4D;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.container .content .submenu {
+    margin-bottom: 20px;
+}
+
+.container .content .submenu .check {
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    color: lightgreen;
+    margin-right: 3px;
+}
+
+.container .content .submenu .cross {
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    margin-right: 3px;
+}
+
+.container .content .submenu .description {
+    padding: 0px 5px 0px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #494B4D;
+    font-size: 1rem;
+}
+
+.container .content .submenu .category-editorial {
+    background-color: #47ACEE;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.container .content .submenu .category-q1 {
+    background-color: #9B74E8;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.container .content .submenu .category-recruiting {
+    background-color: #61BEA6;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.container .content .submenu .category-mobile {
+    background-color: #F3A037;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.container .content .submenu .category-website {
+    background-color: #D665A7;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
+}
+.container .content .submenu .category-sales {
+    background-color: #ACC724;
+    font-size: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    color: white;
 }
